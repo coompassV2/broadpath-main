@@ -1,5 +1,7 @@
 # Welcome to your Lovable project
 
+<!-- Test deployment - Vercel auto-deploy test -->
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/57701d72-d00e-4f36-ab38-3db1c07f47b2
