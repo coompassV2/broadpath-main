@@ -20,7 +20,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/20 backdrop-blur-md border-b border-white/10' 
+        : 'bg-transparent'
+    }`}>
       <div className="flex justify-between items-center p-8 lg:p-12">
         {/* Logo */}
         <div className="text-white font-light tracking-wide text-xl">
