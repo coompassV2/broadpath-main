@@ -70,6 +70,13 @@ const HorizontalScroll = () => {
       client: "Web Design, Web Development, Brand Strategy",
       category: "Programmatic Platform for University Admissions",
       image: "/gradient-4.png"
+    },
+    { 
+      id: 5, 
+      title: "Sou Mais (CASES)", 
+      client: "Web Design, Web Development, Web Maintenance, Web Hosting, Brand Strategy",
+      category: "Portuguese National Micro-Credit Program",
+      image: "/gradient-5.png"
     }
   ];
   
