@@ -40,22 +40,10 @@ const Navbar = () => {
             About
           </button>
           <button
-            onClick={() => scrollToSection('coompass')}
+            onClick={() => scrollToSection('projects')}
             className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
           >
-            Coompass
-          </button>
-          <button
-            onClick={() => scrollToSection('civitas')}
-            className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-          >
-            Civitas
-          </button>
-          <button
-            onClick={() => scrollToSection('lusogate')}
-            className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-          >
-            Lusogate
+            Projects
           </button>
         </div>
 
