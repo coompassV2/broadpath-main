@@ -1,6 +1,3 @@
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-
 const About = () => {
   return (
     <section id="about" className="py-24 px-6 md:px-12 lg:px-24 relative bg-black">
@@ -10,17 +7,6 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-12 text-white">
               We're a full-stack tech studio building AI-powered solutions for real-world impact
             </h2>
-            
-            <div className="mt-12">
-              <Button
-                asChild
-                className="text-lg rounded-full hover:bg-white hover:text-black transition-all duration-300 border border-white/30 text-white"
-              >
-                <a href="/about">
-                  About us <ArrowRight className="ml-2 h-5 w-5" />
-                </a>
-              </Button>
-            </div>
           </div>
           
           <div className="md:col-span-5 space-y-8">
