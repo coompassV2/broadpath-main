@@ -1,0 +1,105 @@
+# Broadpath - LLMs.txt
+
+## About
+
+Broadpath is a full-stack AI innovation studio that builds fast MVPs and scalable products for purpose-driven organizations. We turn purpose-led ideas into real-world solutions through AI-powered development, product strategy, and ethical technology practices.
+
+Founded: 2025
+Team: 5 Specialists
+Location: Lisbon, Portugal & Remote
+Website: https://broadpath.ai
+Email: hello@broadpath.ai
+
+## Mission
+
+Broadpath partners with mission-driven organizations to build fast, functional MVPs powered by AI and emerging technologies. From concept to code, we transform bold ideas into scalable solutions that deliver meaningful, measurable impact.
+
+Tagline: Build Fast. Scale with Purpose.
+
+## Services
+
+### AI MVP Development
+Transform your ideas into working AI-powered prototypes in weeks, not months. Our rapid development approach combines cutting-edge AI technologies with proven product development methodologies.
+
+- Custom AI model development and integration
+- Rapid prototyping with real user feedback
+- Scalable architecture from day one
+- Performance optimization and monitoring
+- Continuous iteration and improvement
+
+Outcomes: Launch a functional AI product in 4-8 weeks with validated user feedback, a clear path to scale, and a strong foundation for future growth.
+
+### Product & GTM Strategy
+Comprehensive product and go-to-market strategy services from concept to launch. Strategic roadmap and go-to-market validation for mission-driven products.
+
+- Market research and competitive analysis
+- User journey mapping and personas
+- Product roadmap development
+- Go-to-market strategy and planning
+- Metrics and KPI definition
+
+Outcomes: A clear, data-driven product strategy with a validated go-to-market plan that sets your product up for success.
+
+### Ethical AI & Automation
+Human-centered AI systems that are transparent, fair, and aligned with your values. Built with efficiency and integrity.
+
+- Ethical AI framework development
+- Bias detection and mitigation
+- Transparent AI decision-making systems
+- Automation for efficiency and scale
+- AI governance and compliance
+
+Outcomes: AI systems that are not only powerful but also ethical, transparent, and aligned with your organization's values.
+
+### Tech for Good Innovation
+Blockchain, AI, and emerging tech solutions designed to solve real-world problems. Purpose-driven emerging tech solutions for measurable impact.
+
+- Emerging technology evaluation and integration
+- Blockchain and decentralized solutions
+- IoT and connected systems
+- Sustainability-focused tech solutions
+- Impact measurement and reporting
+
+Outcomes: Innovative technology solutions that create measurable positive impact while solving real-world challenges.
+
+## Projects
+
+### Coompass
+AI-powered platform for sustainability, impact-driven volunteering, and ESG reporting. Platform for Corporate Volunteering & ESG Reporting.
+
+### Civitas
+Platform for transforming volunteer work into recognized academic credits while creating real impact. Platform for Civic Scholarship & ECTS Credits.
+
+### Lusogate
+Platform for discerning investors seeking concrete solutions for Portuguese residency and wealth creation. Platform for Golden Visa Investment & Real Estate.
+
+### Uni.Network
+Programmatic platform for university admissions and academic connections. Programmatic Platform for University Admissions.
+
+## Expertise Areas
+
+- Artificial Intelligence
+- Software Development
+- Product Strategy
+- Go-to-Market Strategy
+- Ethical AI
+- MVP Development
+- Rapid Prototyping
+- Full-Stack Development
+- Emerging Technologies
+- Blockchain
+- Tech for Good
+- Purpose-Driven Innovation
+
+## Contact
+
+Email: hello@broadpath.ai
+Website: https://broadpath.ai
+Twitter: @broadpath
+Instagram: @broadpath
+LinkedIn: linkedin.com/company/broadpath
+
+## Keywords
+
+AI MVP development, tech solutions, agile development, purpose-driven tech, AI-powered products, product strategy, GTM strategy, ethical AI, tech for good, software development, rapid prototyping, Lisbon tech studio, Coompass, Civitas, Lusogate, Uni.Network
+
