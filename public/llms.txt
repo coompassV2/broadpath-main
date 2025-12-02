@@ -7,7 +7,7 @@ Broadpath is a full-stack AI innovation studio that builds fast MVPs and scalabl
 Founded: 2025
 Team: 5 Specialists
 Location: Lisbon, Portugal & Remote
-Website: https://broadpath.dev
+Website: https://www.broadpath.dev
 Email: hello@broadpath.dev
 
 ## Mission
@@ -94,7 +94,7 @@ Programmatic platform for university admissions and academic connections. Progra
 ## Contact
 
 Email: hello@broadpath.dev
-Website: https://broadpath.dev
+Website: https://www.broadpath.dev
 Twitter: @broadpath
 Instagram: @broadpath
 LinkedIn: linkedin.com/company/broadpath
