@@ -21,7 +21,7 @@ const Footer = () => {
                 asChild
                 className="text-xl py-8 px-6 rounded-full hover:bg-white hover:text-black transition-all duration-300 border border-white/30 text-white"
               >
-                <a href="mailto:hello@broadpath.ai">
+                <a href="mailto:hello@broadpath.dev">
                   Get in touch <ArrowRight className="ml-2 h-6 w-6" />
                 </a>
               </Button>
@@ -39,11 +39,11 @@ const Footer = () => {
             <div>
               <h3 className="text-white/60 text-sm font-medium mb-3">Email</h3>
               <a
-                href="mailto:hello@broadpath.ai"
+                href="mailto:hello@broadpath.dev"
                 className="text-white hover:text-white/80 text-lg font-medium flex items-center gap-2"
               >
                 <Mail className="h-5 w-5" />
-                hello@broadpath.ai
+                hello@broadpath.dev
               </a>
             </div>
             <div>

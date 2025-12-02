@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://broadpath.ai/sitemap.xml
+Sitemap: https://broadpath.dev/sitemap.xml
