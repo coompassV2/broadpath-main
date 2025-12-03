@@ -77,6 +77,13 @@ const HorizontalScroll = () => {
       client: "Web Design, Web Development, Web Maintenance, Web Hosting, Brand Strategy",
       category: "Portuguese National Micro-Credit Program",
       image: "/gradient-5.png"
+    },
+    { 
+      id: 6, 
+      title: "zIRC", 
+      client: "Web Design, Web Development, Brand Strategy",
+      category: "AI terminal for real-time BSC insights",
+      image: "/gradient-6.png"
     }
   ];
   

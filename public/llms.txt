@@ -76,6 +76,12 @@ Platform for discerning investors seeking concrete solutions for Portuguese resi
 ### Uni.Network
 Programmatic platform for university admissions and academic connections. Programmatic Platform for University Admissions.
 
+### Sou Mais (CASES)
+Portuguese National Micro-Credit Program supporting financial inclusion and economic empowerment. Portuguese National Micro-Credit Program.
+
+### zIRC
+AI terminal for real-time BSC insights. AI terminal for real-time BSC insights.
+
 ## Expertise Areas
 
 - Artificial Intelligence
