@@ -70,7 +70,7 @@ AI-powered platform for sustainability, impact-driven volunteering, and ESG repo
 ### Civitas
 Platform for transforming volunteer work into recognized academic credits while creating real impact. Platform for Civic Scholarship & ECTS Credits.
 
-### Lusogate
+### GV Invest
 Platform for discerning investors seeking concrete solutions for Portuguese residency and wealth creation. Platform for Golden Visa Investment & Real Estate.
 
 ### Uni.Network
@@ -101,5 +101,5 @@ LinkedIn: linkedin.com/company/broadpath
 
 ## Keywords
 
-AI MVP development, tech solutions, agile development, purpose-driven tech, AI-powered products, product strategy, GTM strategy, ethical AI, tech for good, software development, rapid prototyping, Lisbon tech studio, Coompass, Civitas, Lusogate, Uni.Network
+AI MVP development, tech solutions, agile development, purpose-driven tech, AI-powered products, product strategy, GTM strategy, ethical AI, tech for good, software development, rapid prototyping, Lisbon tech studio, Coompass, Civitas, GV Invest, Uni.Network
 

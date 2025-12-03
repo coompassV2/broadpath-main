@@ -52,7 +52,7 @@ const HorizontalScroll = () => {
     },
     { 
       id: 2, 
-      title: "Lusogate", 
+      title: "GV Invest", 
       client: "Web Design, Web Development, Web Hosting",
       category: "Platform for Golden Visa Investment & Real Estate",
       image: "/gradient-2.png"

@@ -1,14 +1,14 @@
 import React from 'react';
 
-const LusogateSection = () => {
+const GVInvestSection = () => {
   return (
-    <div id="lusogate" className="min-h-screen bg-gradient-to-br from-slate-900 to-black flex items-center justify-start relative overflow-hidden">
+    <div id="gv-invest" className="min-h-screen bg-gradient-to-br from-slate-900 to-black flex items-center justify-start relative overflow-hidden">
       {/* Left Content Area */}
       <div className="px-8 lg:px-12 pt-8 lg:pt-12 z-10">
         <div className="max-w-4xl">
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 text-white">
-            Lusogate
+            GV Invest
           </h1>
 
           {/* Paragraph */}
@@ -38,4 +38,4 @@ const LusogateSection = () => {
   );
 };
 
-export default LusogateSection;
+export default GVInvestSection;
