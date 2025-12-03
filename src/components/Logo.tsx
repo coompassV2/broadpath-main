@@ -25,7 +25,6 @@ const Logo = () => {
           src="/brut.svg" 
           alt="Broadpath Brut Icon" 
           className="w-8 h-8"
-          style={{ filter: 'brightness(0) invert(1)' }}
         />
         <span className="text-base tracking-wide text-white">
           <span className="font-normal">BROAD</span>
