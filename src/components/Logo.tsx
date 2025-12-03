@@ -22,8 +22,8 @@ const Logo = () => {
     >
       <div className="flex items-center gap-3">
         <img 
-          src="/orbit.svg" 
-          alt="Broadpath Orbit Icon" 
+          src="/brut.svg" 
+          alt="Broadpath Brut Icon" 
           className="w-8 h-8"
           style={{ filter: 'brightness(0) invert(1)' }}
         />
