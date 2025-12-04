@@ -83,7 +83,7 @@ const HorizontalScroll = () => {
       title: "zIRC", 
       client: "Web Design, Web Development, Brand Strategy",
       category: "AI terminal for real-time BSC insights",
-      image: "/gradient-6.png"
+      image: "/bp-zirc.png"
     }
   ];
   
