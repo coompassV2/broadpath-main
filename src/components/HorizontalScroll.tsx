@@ -48,14 +48,14 @@ const HorizontalScroll = () => {
       title: "Coompass", 
       client: "Web Design, Web Development, Brand Strategy, Web Hosting, Web Maintenance",
       category: "Platform for Corporate Volunteering & ESG Reporting",
-      image: "/gradient-1.png"
+      image: "/bp-coompass.png"
     },
     { 
       id: 2, 
       title: "GV Invest", 
       client: "Web Design, Web Development, Web Hosting",
       category: "Platform for Golden Visa Investment & Real Estate",
-      image: "/gradient-2.png"
+      image: "/bp-gvinvest.png"
     },
     { 
       id: 3, 
