@@ -62,14 +62,14 @@ const HorizontalScroll = () => {
       title: "Civitas", 
       client: "Web Design, Web Development",
       category: "Platform for Civic Scholarship & ECTS Credits",
-      image: "/gradient-3.png"
+      image: "/bp-civitas.png"
     },
     { 
       id: 4, 
-      title: "Uni.Network", 
+      title: "GRACE Uni.Network", 
       client: "Web Design, Web Development, Brand Strategy",
       category: "Programmatic Platform for University Admissions",
-      image: "/gradient-4.png"
+      image: "/bp-uninetwork.png"
     },
     { 
       id: 5, 
