@@ -76,7 +76,7 @@ const HorizontalScroll = () => {
       title: "Sou Mais (CASES)", 
       client: "Web Design, Web Development, Web Maintenance, Web Hosting, Brand Strategy",
       category: "Portuguese National Micro-Credit Program",
-      image: "/gradient-5.png"
+      image: "/bp-cases.png"
     },
     { 
       id: 6, 
