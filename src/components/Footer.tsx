@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center">
           <p className="text-white/60">
-            © 2025 Broadpath, Lda. All rights reserved.
+            © 2026 Broadpath, Lda. All rights reserved.
           </p>
           </div>
         </div>
