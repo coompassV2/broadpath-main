@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -14,88 +14,84 @@ const Services = () => {
       title: "AI MVP Development",
       description: "We bring your vision to life through fast, functional prototypes powered by custom AI — turning concepts into scalable, impact-ready products.",
       details: {
-        overview: "Transform your ideas into working AI-powered prototypes in weeks, not months. Our rapid development approach combines cutting-edge AI technologies with proven product development methodologies.",
+        overview: "Working AI-powered prototypes in weeks, not months — cutting-edge AI with proven product methodology.",
         features: [
-          "Custom AI model development and integration",
-          "Rapid prototyping with real user feedback",
-          "Scalable architecture from day one",
-          "Performance optimization and monitoring",
-          "Continuous iteration and improvement"
+          "Custom AI model development",
+          "Rapid prototyping & feedback",
+          "Scalable architecture",
+          "Performance & monitoring"
         ],
         process: [
-          "Discovery & Requirements Analysis",
-          "AI Model Selection & Development",
+          "Discovery & Requirements",
+          "AI Model Selection & Dev",
           "MVP Architecture Design",
-          "Rapid Development & Testing",
-          "Deployment & User Feedback Integration"
+          "Rapid Build & Testing",
+          "Deploy & Feedback Loop"
         ],
-        outcomes: "Launch a functional AI product in 4-8 weeks with validated user feedback and a clear path to scale."
+        outcomes: "Launch in 4–8 weeks with validated feedback and a clear path to scale."
       }
     },
     {
       title: "Product & GTM Strategy",
       description: "From 0 to 1 and beyond: we shape your roadmap, validate your idea, and support go-to-market strategies that align with your mission.",
       details: {
-        overview: "Navigate the complex journey from concept to market success with our comprehensive product and go-to-market strategy services. We help you validate, build, and launch products that create real impact.",
+        overview: "From concept to market success: validate, build, and launch products that create real impact.",
         features: [
-          "Market research and competitive analysis",
-          "User persona development and validation",
-          "Product roadmap and feature prioritization",
-          "Go-to-market strategy development",
-          "Launch planning and execution support"
+          "Market & competitive research",
+          "User persona & validation",
+          "Product roadmap & prioritization",
+          "GTM & launch execution"
         ],
         process: [
           "Market Opportunity Assessment",
           "User Research & Validation",
           "Product Strategy & Roadmap",
           "GTM Strategy Development",
-          "Launch Execution & Optimization"
+          "Launch & Optimization"
         ],
-        outcomes: "Clear product direction, validated market fit, and a comprehensive go-to-market strategy that drives sustainable growth."
+        outcomes: "Clear product direction, validated fit, and a GTM strategy that drives growth."
       }
     },
     {
       title: "Ethical AI & Automation",
       description: "We craft human-centered AI systems that drive real value — responsibly. Efficiency, intelligence, and integrity baked in from day one.",
       details: {
-        overview: "Build AI systems that not only perform exceptionally but also align with your values and ethical principles. We ensure your AI solutions are transparent, fair, and beneficial to all stakeholders.",
+        overview: "AI that performs exceptionally and aligns with your values — transparent, fair, and beneficial.",
         features: [
-          "Ethical AI framework development",
-          "Bias detection and mitigation",
-          "Transparency and explainability",
-          "Privacy-preserving AI solutions",
-          "Responsible AI governance"
+          "Ethical AI framework",
+          "Bias detection & mitigation",
+          "Transparency & explainability",
+          "Responsible governance"
         ],
         process: [
           "Ethical Framework Design",
           "AI System Development",
           "Bias Testing & Mitigation",
           "Transparency Implementation",
-          "Ongoing Monitoring & Governance"
+          "Monitoring & Governance"
         ],
-        outcomes: "AI systems that are not only powerful and efficient but also trustworthy, fair, and aligned with your organizational values."
+        outcomes: "Powerful, efficient AI that is trustworthy, fair, and aligned with your values."
       }
     },
     {
       title: "Tech for Good Innovation",
       description: "Blockchain, AI, and emerging tech built with purpose. We develop digital solutions designed to solve real problems and create measurable change.",
       details: {
-        overview: "Leverage cutting-edge technologies to address real-world challenges and create positive social impact. We specialize in developing solutions that make a difference in communities and society.",
+        overview: "Cutting-edge tech for real-world challenges — solutions that create measurable social impact.",
         features: [
-          "Social impact technology development",
-          "Blockchain for transparency and trust",
-          "AI for social good applications",
-          "Digital inclusion solutions",
-          "Impact measurement and reporting"
+          "Social impact tech",
+          "Blockchain for transparency",
+          "AI for social good",
+          "Impact measurement"
         ],
         process: [
-          "Social Problem Identification",
-          "Technology Solution Design",
+          "Problem Identification",
+          "Solution Design",
           "Stakeholder Engagement",
           "Development & Testing",
-          "Impact Measurement & Scaling"
+          "Impact & Scaling"
         ],
-        outcomes: "Technology solutions that create measurable positive impact while building sustainable, scalable systems for social change."
+        outcomes: "Measurable positive impact and scalable systems for social change."
       }
     }
   ];
@@ -122,52 +118,64 @@ const Services = () => {
                     Learn more <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </DialogTrigger>
-                <DialogContent className="backdrop-blur-xl bg-white/5 border border-white/10 text-white max-w-4xl max-h-[90vh] overflow-y-auto shadow-[0_4px_12px_-2px_rgba(0,0,0,0.3)]">
-                  <DialogHeader className="mb-6">
-                    <DialogTitle className="text-3xl md:text-4xl font-bold tracking-tighter text-white">
+                <DialogContent className="backdrop-blur-xl bg-white/5 border border-white/10 text-white max-w-5xl max-h-[88vh] overflow-y-auto shadow-[0_4px_12px_-2px_rgba(0,0,0,0.3)] p-6 md:p-8">
+                  <DialogHeader className="mb-4">
+                    <DialogTitle className="text-2xl md:text-3xl font-bold tracking-tighter text-white">
                       {service.title}
                     </DialogTitle>
                   </DialogHeader>
-                  
-                  <div className="space-y-8">
-                    {/* Overview */}
-                    <div>
-                      <h3 className="text-xl font-semibold mb-3 text-white">Overview</h3>
-                      <p className="text-white/70 leading-relaxed">{service.details.overview}</p>
-                    </div>
 
-                    {/* Features */}
+                  <p className="text-sm md:text-base text-white/75 leading-relaxed mb-6">
+                    {service.details.overview}
+                  </p>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                    {/* What We Deliver — chips */}
                     <div>
-                      <h3 className="text-xl font-semibold mb-3 text-white">What We Deliver</h3>
-                      <ul className="space-y-2">
+                      <h3 className="text-lg font-semibold mb-2 text-white">What We Deliver</h3>
+                      <div className="flex flex-wrap gap-2">
                         {service.details.features.map((feature, idx) => (
-                          <li key={idx} className="flex items-start">
-                            <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            <span className="text-white/70">{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {/* Process */}
-                    <div>
-                      <h3 className="text-xl font-semibold mb-3 text-white">Our Process</h3>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {service.details.process.map((step, idx) => (
-                          <div key={idx} className="flex items-start">
-                            <div className="w-8 h-8 bg-white/10 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0">
-                              <span className="text-white text-sm font-medium">{idx + 1}</span>
-                            </div>
-                            <span className="text-white/70">{step}</span>
-                          </div>
+                          <span
+                            key={idx}
+                            className="inline-flex items-center rounded-full border border-white/20 bg-white/5 px-3 py-1.5 text-xs md:text-sm text-white/85"
+                          >
+                            {feature}
+                          </span>
                         ))}
                       </div>
                     </div>
 
-                    {/* Outcomes */}
-                    <div className="border-t border-white/10 pt-6">
-                      <h3 className="text-xl font-semibold mb-3 text-white">Expected Outcomes</h3>
-                      <p className="text-white/70 leading-relaxed">{service.details.outcomes}</p>
+                    {/* Expected Outcomes — highlight card */}
+                    <div className="rounded-lg border border-green-500/30 bg-green-500/10 p-4">
+                      <div className="flex items-start gap-3">
+                        <div className="rounded-full bg-green-500/20 p-1.5 flex-shrink-0">
+                          <Sparkles className="h-4 w-4 text-green-400" />
+                        </div>
+                        <div>
+                          <h3 className="text-sm font-semibold text-green-400 mb-1">Expected Outcomes</h3>
+                          <p className="text-sm text-white/85 leading-relaxed">
+                            {service.details.outcomes}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Our Process — timeline infographic */}
+                  <div className="mt-6 pt-6 border-t border-white/10">
+                    <h3 className="text-lg font-semibold mb-4 text-white">Our Process</h3>
+                    <div className="relative">
+                      <div className="absolute left-4 top-2 bottom-2 w-px bg-white/20" aria-hidden />
+                      <ul className="space-y-3">
+                        {service.details.process.map((step, idx) => (
+                          <li key={idx} className="flex items-center gap-4 relative">
+                            <div className="w-8 h-8 rounded-full bg-white/10 border-2 border-white/20 flex items-center justify-center flex-shrink-0 z-10 text-sm font-semibold text-white">
+                              {idx + 1}
+                            </div>
+                            <span className="text-sm text-white/80">{step}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </DialogContent>
