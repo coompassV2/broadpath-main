@@ -8,6 +8,65 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
+const stroke = "rgba(255,255,255,0.25)";
+const strokeThin = 1.2;
+
+function ServiceWireframe({ type }: { type: string }) {
+  const className = "w-full h-full min-h-[200px] md:min-h-[260px]";
+  switch (type) {
+    case "AI MVP Development":
+      return (
+        <svg viewBox="0 0 120 80" className={className} fill="none" stroke={stroke} strokeWidth={strokeThin}>
+          <rect x="8" y="28" width="22" height="24" rx="2" />
+          <line x1="30" y1="40" x2="42" y2="40" />
+          <rect x="42" y="28" width="22" height="24" rx="2" />
+          <line x1="64" y1="40" x2="76" y2="40" />
+          <rect x="76" y="28" width="22" height="24" rx="2" />
+          <path d="M 98 40 L 104 40 L 104 36 L 112 40 L 104 44 L 104 40 Z" fill={stroke} stroke="none" />
+          <circle cx="60" cy="62" r="4" strokeDasharray="2 2" />
+          <line x1="60" y1="58" x2="60" y2="48" strokeDasharray="2 2" />
+        </svg>
+      );
+    case "Product & GTM Strategy":
+      return (
+        <svg viewBox="0 0 120 80" className={className} fill="none" stroke={stroke} strokeWidth={strokeThin}>
+          <path d="M 20 20 L 100 20 L 92 60 L 28 60 Z" />
+          <line x1="35" y1="40" x2="85" y2="40" />
+          <line x1="50" y1="25" x2="50" y2="55" />
+          <line x1="70" y1="25" x2="70" y2="55" />
+          <circle cx="100" cy="38" r="6" />
+          <line x1="94" y1="38" x2="88" y2="38" />
+        </svg>
+      );
+    case "Ethical AI & Automation":
+      return (
+        <svg viewBox="0 0 120 80" className={className} fill="none" stroke={stroke} strokeWidth={strokeThin}>
+          <path d="M 60 12 L 88 28 L 88 52 L 60 68 L 32 52 L 32 28 Z" />
+          <line x1="60" y1="28" x2="60" y2="52" />
+          <line x1="44" y1="40" x2="76" y2="40" />
+          <circle cx="52" cy="36" r="3" />
+          <circle cx="68" cy="44" r="3" />
+        </svg>
+      );
+    case "Tech for Good Innovation":
+      return (
+        <svg viewBox="0 0 120 80" className={className} fill="none" stroke={stroke} strokeWidth={strokeThin}>
+          <circle cx="60" cy="38" r="10" />
+          <circle cx="28" cy="28" r="8" />
+          <circle cx="92" cy="28" r="8" />
+          <circle cx="28" cy="58" r="8" />
+          <circle cx="92" cy="58" r="8" />
+          <line x1="52" y1="32" x2="38" y2="32" />
+          <line x1="68" y1="32" x2="82" y2="32" />
+          <line x1="52" y1="44" x2="38" y2="52" />
+          <line x1="68" y1="44" x2="82" y2="52" />
+        </svg>
+      );
+    default:
+      return null;
+  }
+}
+
 const Services = () => {
   const services = [
     {
@@ -161,21 +220,26 @@ const Services = () => {
                     </div>
                   </div>
 
-                  {/* Our Process — timeline infographic */}
-                  <div className="mt-6 pt-6 border-t border-white/10">
-                    <h3 className="text-lg font-semibold mb-4 text-white">Our Process</h3>
-                    <div className="relative">
-                      <div className="absolute left-4 top-2 bottom-2 w-px bg-white/20" aria-hidden />
-                      <ul className="space-y-3">
-                        {service.details.process.map((step, idx) => (
-                          <li key={idx} className="flex items-center gap-4 relative">
-                            <div className="w-8 h-8 rounded-full bg-white/10 border-2 border-white/20 flex items-center justify-center flex-shrink-0 z-10 text-sm font-semibold text-white">
-                              {idx + 1}
-                            </div>
-                            <span className="text-sm text-white/80">{step}</span>
-                          </li>
-                        ))}
-                      </ul>
+                  {/* Our Process + Wireframe (fourth quadrant) */}
+                  <div className="mt-6 pt-6 border-t border-white/10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                    <div>
+                      <h3 className="text-lg font-semibold mb-4 text-white">Our Process</h3>
+                      <div className="relative">
+                        <div className="absolute left-4 top-2 bottom-2 w-px bg-white/20" aria-hidden />
+                        <ul className="space-y-3">
+                          {service.details.process.map((step, idx) => (
+                            <li key={idx} className="flex items-center gap-4 relative">
+                              <div className="w-8 h-8 rounded-full bg-white/10 border-2 border-white/20 flex items-center justify-center flex-shrink-0 z-10 text-sm font-semibold text-white">
+                                {idx + 1}
+                              </div>
+                              <span className="text-sm text-white/80">{step}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center min-h-[200px] md:min-h-[280px]">
+                      <ServiceWireframe type={service.title} />
                     </div>
                   </div>
                 </DialogContent>
