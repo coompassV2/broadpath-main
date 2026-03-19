@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="bg-black py-20 px-6 md:px-12 lg:px-24">
+    <footer className="bg-black py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between gap-12 border-b border-white/10 pb-12 mb-12">
           <div className="flex-1">
@@ -26,13 +26,13 @@ const Footer = () => {
                 onClick={() => setIsContactModalOpen(true)}
                 className="text-xl py-8 px-6 rounded-full hover:bg-white hover:text-black transition-all duration-300 border border-white/30 text-white"
               >
-                Get in touch <ArrowRight className="ml-2 h-6 w-6" />
+                  Get in touch <ArrowRight className="ml-2 h-6 w-6" />
               </Button>
               <Button
                 onClick={() => setIsContactModalOpen(true)}
                 className="text-xl py-8 px-8 rounded-full bg-green-500 text-black hover:bg-green-600 transition-all duration-300"
               >
-                Start a project <ArrowRight className="ml-2 h-6 w-6" />
+                  Start a project <ArrowRight className="ml-2 h-6 w-6" />
               </Button>
             </div>
           </div>
@@ -68,9 +68,9 @@ const Footer = () => {
           <p className="text-white/60">
             © 2026 Broadpath, Lda. All rights reserved.
           </p>
-          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
       <ContactModal 
         open={isContactModalOpen} 
         onOpenChange={setIsContactModalOpen} 

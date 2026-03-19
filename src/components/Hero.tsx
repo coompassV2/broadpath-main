@@ -72,8 +72,8 @@ const Hero = () => {
           </h1>
 
           {/* Paragraph */}
-          <p className="lg:max-w-md text-white/70 font-light leading-relaxed text-lg">
-            When the pressure is high and timelines are tight, only the most agile solutions survive. At Broadpath, we don't just build fast — we build with meaning. In a world of noise, we help purpose-led teams launch tech that matters.
+          <p className="max-w-4xl text-white/70 font-light leading-relaxed text-lg">
+            When the pressure is high and timelines are tight, only the most agile solutions survive. At Broadpath, we don't just build fast — we build with meaning, and we help purpose-led teams launch tech that matters.
           </p>
         </div>
       </div>
